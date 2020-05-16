@@ -7,7 +7,8 @@ class RingBuffer:
 
 
     def append(self, item):
-        if self.size < self.capacity: #if size is less than capacity just add to buffer
+        if self.size < self.capacity: 
+            #if size is less than capacity just add to buffer
             self.storage.append(item)
             self.size += 1
 
